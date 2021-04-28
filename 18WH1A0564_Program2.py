@@ -1,6 +1,6 @@
 !pip install db-sqlite3
 import sqlite3
-conn = sqlite3.connect ('test.db')
+conn = sqlite3.connect ('exp2.db')
 cur = conn.cursor()
 print ("DB Created Successfully")
 
